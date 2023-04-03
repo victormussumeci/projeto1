@@ -1,0 +1,215 @@
+body{
+    margin: 0 auto;
+    font-family: restante-pagina;
+    color: black;
+   
+}
+@font-face {
+    font-family: font-menu;
+    src: url(fontes/Rajdhani/Rajdhani-Regular.ttf);
+}
+
+@font-face {
+    font-family: restante-pagina;
+    src: url(fontes/Rajdhani/Rajdhani-Bold.ttf)
+}
+
+.menu-parte1{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 5%;
+    background-color: rgb(216, 44, 44);
+   
+}
+.menu-parte1 img{
+    height: 99px;
+    position: absolute;
+
+}
+ .menu-parte1 ul li {
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(209, 98, 98);
+    border-radius: 10px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.menu-parte1 ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: restante-pagina;
+}
+.menu-parte1 ul{
+    padding-left: 9%;
+    margin-bottom: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 26px;
+   
+    
+}
+nav ul li a{
+    font-family: font-menu;
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+}
+#fotos{
+    margin-top: 10%;
+}
+#conteudo-1{
+    display: flex;
+}
+#conteudo-1 .conteudo-p1{
+    background-image:url(imagens/imagemInicial.png);
+   
+    background-repeat: no-repeat;
+}
+.conteudo-p1{
+    color: black;
+    display: table;
+  text-align: center;
+  padding-top: 15%;
+}
+.conteudo-p1 .p1{
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+    margin-left: 2%;
+    width:70px;
+}
+.conteudo-p1 div{
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.747);
+    color: aliceblue;
+}
+#conteudo-1 .conteudo-p2{
+    background-image:url(imagens/inicioParte2.jpeg);
+   
+    background-repeat: no-repeat;
+}
+
+.conteudo-p2{
+    color: black;
+    display: table;
+  text-align: center;
+  padding-top: 15%;
+}
+.conteudo-p2 .p1{
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+    margin-left: 2%;
+    width:140px;
+}
+.conteudo-p2 div{
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.747);
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+  .card ul li{
+    display: block;
+    justify-content: flex-start;
+    text-decoration: none;
+    
+  }
+.container .card img{
+    width: 298px;
+    height: 188px;
+}
+.card h3{
+    font-size: 35px;
+}
+.card h3:hover{
+    font-size: 40px;
+    color: red;
+}
+.card p{
+    
+    color: red;
+
+}
+.card0{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 25px;
+}
+#Localidade{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(216, 44, 44);
+    margin-top: 10%;
+    color: aliceblue;
+    
+}
+#Localidade .end1{
+    padding-top: 10px;
+    margin-left: 15%;
+}
+#Localidade .end2{
+    padding-top: 10px;
+    margin-right: 15%;
+}
+#Localidade ul li{
+    display: block;
+    text-decoration: none;
+}
+#contato{
+    margin-top: 10%;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#contato form input,textarea,button{
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+    width: 450px;
+}
+input::placeholder{
+    font-family: restante-pagina;
+    color:white;
+
+}
+input{
+    font-family: restante-pagina;
+    color:white;
+}
+button{
+    font-family: restante-pagina;
+    color:white;
+    background-color: black;
+}
+textarea{
+    resize: none;
+    font-family: restante-pagina;
+    color:white;
+}
+textarea::placeholder{
+    font-family: restante-pagina;
+    color:white;
+
+}
+input,textarea{
+    background-color:rgb(216, 44, 44);
+    border-radius: 10px;
+}
